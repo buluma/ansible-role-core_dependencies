@@ -27,4 +27,4 @@ jobs:
         run: ansible-galaxy install buluma.core_dependencies
 
       - name: "Get Role Info"
-        run: ansible-playbook role info buluma.core_dependencies
+        run: ansible-galaxy role info buluma.core_dependencies
