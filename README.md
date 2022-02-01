@@ -4,7 +4,7 @@ Install dependecies to support the Ansible core modules.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-core_dependencies/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-core_dependencies)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/core_dependencies)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/core_dependencies)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/releases/)|
+|[![github](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![pipeline status](https://gitlab.com/buluma/ansible-role-core_dependencies/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-core_dependencies/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/core_dependencies)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/core_dependencies)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/releases/)|
 
 ## [Example Playbook](#example-playbook)
 

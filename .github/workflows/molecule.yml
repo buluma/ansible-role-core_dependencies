@@ -34,7 +34,7 @@ jobs:
       matrix:
         config:
           - image: "alpine"
-            tag: "latest" # TODO expand base build list
+            tag: "latest"    # TODO expand base build list
     steps:
       - name: checkout
         uses: actions/checkout@v2
