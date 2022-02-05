@@ -4,7 +4,7 @@ Install dependecies to support the Ansible core modules.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![pipeline status](https://gitlab.com/buluma/ansible-role-core_dependencies/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-core_dependencies/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/57853)](https://galaxy.ansible.com/buluma/core_dependencies)|[![downloads](https://img.shields.io/ansible/role/d/57853)](https://galaxy.ansible.com/buluma/core_dependencies)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/releases/)|
+|[![github](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-core_dependencies/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-core_dependencies)|[![quality](https://img.shields.io/ansible/quality/57853)](https://galaxy.ansible.com/buluma/core_dependencies)|[![downloads](https://img.shields.io/ansible/role/d/57853)](https://galaxy.ansible.com/buluma/core_dependencies)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -48,7 +48,7 @@ The following roles are used to prepare a system. You can prepare your system in
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.nl/) for further information.
+This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.co.ke/) for further information.
 
 Here is an overview of related roles:
 
@@ -84,4 +84,4 @@ Apache-2.0
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.co.ke/)
+[Michael Buluma](https://buluma.github.io/)
