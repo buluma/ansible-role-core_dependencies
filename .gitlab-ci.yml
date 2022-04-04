@@ -42,6 +42,8 @@ molecule:
         tag: "bionic"
       - image: "docker-ubuntu-systemd"
         tag: "focal"
+      - image: "rockylinux"
+        tag: "8"
 
 testing:
   script:
@@ -77,6 +79,8 @@ testing:
         tag: "bionic"
       - image: "docker-ubuntu-systemd"
         tag: "focal"
+      - image: "rockylinux"
+        tag: "8"
 
 role_testing:
   script:
@@ -112,6 +116,8 @@ role_testing:
         tag: "bionic"
       - image: "docker-ubuntu-systemd"
         tag: "focal"
+      - image: "rockylinux"
+        tag: "8"
 
 galaxy:
   script:
