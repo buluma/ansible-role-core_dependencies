@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      # Drafts your next Release notes as Pull Requests are merged into "main"
+      # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5
         # (Optional) specify config name to use, relative to .github/. Default: release-drafter.yml
         # with:
@@ -39,13 +39,13 @@ jobs:
 
     steps:
       - name: Checkout dj-wasabi-release repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: dj-wasabi/dj-wasabi-release
           path: dj-wasabi-release
 
       - name: Checkout current repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: main
 
