@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.3](https://github.com/buluma/ansible-role-core_dependencies/tree/2.0.3) (2022-12-24)
+
+[Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/2.0.2...2.0.3)
+
+## [2.0.2](https://github.com/buluma/ansible-role-core_dependencies/tree/2.0.2) (2022-11-08)
+
+[Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/2.0.1...2.0.2)
+
 ## [2.0.1](https://github.com/buluma/ansible-role-core_dependencies/tree/2.0.1) (2022-07-08)
 
 [Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/1.0.9...2.0.1)
