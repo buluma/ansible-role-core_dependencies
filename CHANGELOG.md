@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-core_dependencies/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/2.0.3...HEAD)
+
+**Merged pull requests:**
+
+- Remove apt-transport-https [\#13](https://github.com/buluma/ansible-role-core_dependencies/pull/13) ([roock](https://github.com/roock))
+
 ## [2.0.3](https://github.com/buluma/ansible-role-core_dependencies/tree/2.0.3) (2022-12-24)
 
 [Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/2.0.2...2.0.3)
