@@ -2,9 +2,9 @@
 
 Install dependecies to support the Ansible core modules.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-core_dependencies/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-core_dependencies)|[![quality](https://img.shields.io/ansible/quality/57853)](https://galaxy.ansible.com/buluma/core_dependencies)|[![downloads](https://img.shields.io/ansible/role/d/57853)](https://galaxy.ansible.com/buluma/core_dependencies)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-core_dependencies/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-core_dependencies)|[![downloads](https://img.shields.io/ansible/role/d/4675)](https://galaxy.ansible.com/buluma/core_dependencies)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
