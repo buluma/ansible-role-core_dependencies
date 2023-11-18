@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-core_dependencies/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/2.0.6...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#18](https://github.com/buluma/ansible-role-core_dependencies/issues/18)
+- Update action [\#17](https://github.com/buluma/ansible-role-core_dependencies/issues/17)
+
 ## [2.0.6](https://github.com/buluma/ansible-role-core_dependencies/tree/2.0.6) (2023-05-05)
 
 [Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/2.0.5...2.0.6)
