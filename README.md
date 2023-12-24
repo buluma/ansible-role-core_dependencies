@@ -45,8 +45,6 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-core_dependencies.svg)](https://github.com/buluma/ansible-role-core_dependencies/issues/)
-
 | Requirement | GitHub | Version |
 |-------------|--------|--------|
 |[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
