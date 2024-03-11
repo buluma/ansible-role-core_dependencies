@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#28](https://github.com/buluma/ansible-role-core_dependencies/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#27](https://github.com/buluma/ansible-role-core_dependencies/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.3.0](https://github.com/buluma/ansible-role-core_dependencies/tree/2.3.0) (2024-01-20)
