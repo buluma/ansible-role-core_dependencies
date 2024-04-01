@@ -40,7 +40,8 @@ _core_dependencies_packages:
     - passwd
     - python3-apt
     - subversion
-    - xz-utils
+    #  TODO: Pinning due to https://ubuntu.com/security/CVE-2024-3094
+    - xz-utils=5.4.6
   RedHat-7:
     - iproute
     - libselinux-python
