@@ -90,7 +90,6 @@
 **Merged pull requests:**
 
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#9](https://github.com/buluma/ansible-role-core_dependencies/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump alstr/todo-to-issue-action from 2.3 to 4.6 [\#7](https://github.com/buluma/ansible-role-core_dependencies/pull/7) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.7](https://github.com/buluma/ansible-role-core_dependencies/tree/1.0.7) (2022-03-23)
 
@@ -118,6 +117,7 @@
 
 **Merged pull requests:**
 
+- Bump alstr/todo-to-issue-action from 2.3 to 4.6 [\#7](https://github.com/buluma/ansible-role-core_dependencies/pull/7) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/galaxy-action from 1.0.1 to 1.1.0 [\#6](https://github.com/buluma/ansible-role-core_dependencies/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 1 to 2.4.0 [\#5](https://github.com/buluma/ansible-role-core_dependencies/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
 
