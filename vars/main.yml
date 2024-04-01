@@ -3,6 +3,7 @@
 
 core_dependencies_conflicting_packages:
   - busybox-xz
+  - xz-utils
 
 core_dependencies_shared_packages:
   - acl
