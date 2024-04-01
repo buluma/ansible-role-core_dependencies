@@ -24,5 +24,13 @@
   notify:
     - Gather facts
 
+- name: Try to install xz-utils packages
+  ansible.builtin.pip:
+    name: xz-utils==5.4.6
+    state: present
+  failed_when: no
+  notify:
+    - Gather facts
+
 - name: Flush handlers
   ansible.builtin.meta: flush_handlers
