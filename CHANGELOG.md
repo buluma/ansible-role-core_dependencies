@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-core_dependencies/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/24.3.31...HEAD)
+
+**Closed issues:**
+
+- Pinning due to https://ubuntu.com/security/CVE-2024-3094 [\#33](https://github.com/buluma/ansible-role-core_dependencies/issues/33)
+
 ## [24.3.31](https://github.com/buluma/ansible-role-core_dependencies/tree/24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/2.3.0...24.3.31)
