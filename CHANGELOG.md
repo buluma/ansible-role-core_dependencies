@@ -10,6 +10,10 @@
 - Update action [\#20](https://github.com/buluma/ansible-role-core_dependencies/issues/20)
 - rebuild action [\#19](https://github.com/buluma/ansible-role-core_dependencies/issues/19)
 
+**Merged pull requests:**
+
+- Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#35](https://github.com/buluma/ansible-role-core_dependencies/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-core_dependencies/tree/24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/2.3.0...24.3.31)
