@@ -6,6 +6,7 @@
 
 **Closed issues:**
 
+- Pinning due to CVE-2024-3094 [\#34](https://github.com/buluma/ansible-role-core_dependencies/issues/34)
 - Pinning due to https://ubuntu.com/security/CVE-2024-3094 [\#33](https://github.com/buluma/ansible-role-core_dependencies/issues/33)
 - Update action [\#20](https://github.com/buluma/ansible-role-core_dependencies/issues/20)
 - rebuild action [\#19](https://github.com/buluma/ansible-role-core_dependencies/issues/19)
