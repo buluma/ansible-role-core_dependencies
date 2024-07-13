@@ -3,7 +3,6 @@
 
 core_dependencies_conflicting_packages:
   - busybox-xz
-  - xz-utils
 
 core_dependencies_shared_packages:
   - acl
@@ -15,7 +14,7 @@ core_dependencies_shared_packages:
   - tar
   - unzip
 
-_core_dependencies_packages:
+_core_dependencies_specific_packages:
   Archlinux:
     - iproute2
     - shadow
@@ -35,13 +34,22 @@ _core_dependencies_packages:
     - shadow-utils
     - xz
   Debian:
+    - apt-transport-https
     - debconf
     - debconf-i18n
     - iproute2
     - passwd
     - python3-apt
     - subversion
-    # - xz-utils==5.4.6
+    - xz-utils
+  Fedora-41:
+    - dnf
+    - iproute
+    - python3-libdnf5
+    - python3-libselinux
+    - python3-libsemanage
+    - shadow-utils
+    - xz
   RedHat-7:
     - iproute
     - libselinux-python
@@ -65,11 +73,6 @@ _core_dependencies_packages:
     - subversion
     - xz
 
-core_dependencies_packages: "{{ _core_dependencies_packages[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_core_dependencies_packages[ansible_os_family ~ '-' ~ ansible_distribution_major_version] | default(_core_dependencies_packages[ansible_os_family] )) }}"
+core_dependencies_specific_packages: "{{ _core_dependencies_specific_packages[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_core_dependencies_specific_packages[ansible_os_family ~ '-' ~ ansible_distribution_major_version] | default(_core_dependencies_specific_packages[ansible_os_family] )) }}"
 
-core_dependencies: "{{ core_dependencies_shared_packages + core_dependencies_packages }}"
-
-core_dependencies_pip_packages:
-  - boto
-  - boto3
-  - boto
+core_dependencies_packages: "{{ core_dependencies_shared_packages + core_dependencies_specific_packages }}"

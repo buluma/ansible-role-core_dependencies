@@ -8,29 +8,8 @@
 
 - name: Install packages
   ansible.builtin.package:
-    name: "{{ core_dependencies }}"
-    update_cache: yes
-  notify:
-    - Gather facts
-
-- name: Reset connetion
-  ansible.builtin.meta: reset_connection
-
-- name: Try to install pip packages
-  ansible.builtin.pip:
-    name: "{{ core_dependencies_pip_packages }}"
-    state: present
-  failed_when: no
-  notify:
-    - Gather facts
-
-# TODO: Pinning due to CVE-2024-3094
-- name: Try to install xz-utils packages
-  ansible.builtin.pip:
-    name: xz-utils==5.4.6
-    state: present
-  when: ansible_facts['os_family'] == 'Debian'
-  failed_when: no
+    name: "{{ core_dependencies_packages }}"
+    update_cache: true
   notify:
     - Gather facts
 
