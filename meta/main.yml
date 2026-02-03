@@ -19,9 +19,7 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - jammy
-        - lunar
-        - noble
+        - all
 
   galaxy_tags:
     - coredependencies
