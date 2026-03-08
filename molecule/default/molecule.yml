@@ -24,5 +24,9 @@ platforms:
     pre_build_image: true
 provisioner:
   name: ansible
+  inventory:
+    host_vars:
+      all:
+        ansible_user: root
 verifier:
   name: ansible
