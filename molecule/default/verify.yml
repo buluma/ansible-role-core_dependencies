@@ -5,18 +5,18 @@
   gather_facts: true
 
   tasks:
-  - name: Compress /tmp
-    community.general.archive:
-      path: /tmp
-      dest: tmp.tgz
+    - name: Compress /tmp
+      community.general.archive:
+        path: /tmp
+        dest: tmp.tgz
 
-  - name: Check network facts
-    ansible.builtin.assert:
-      that:
-      - ansible_default_ipv4.broadcast is defined
+    - name: Check network facts
+      ansible.builtin.assert:
+        that:
+          - ansible_default_ipv4.broadcast is defined
 
-  - name: See if the package manager still works
-    block:
-    - name: Install a package
-      ansible.builtin.package:
-        name: acl
+    - name: See if the package manager still works
+      block:
+        - name: Install a package
+          ansible.builtin.package:
+            name: acl
