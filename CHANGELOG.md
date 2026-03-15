@@ -1,5 +1,13 @@
 # Changelog
 
+## [v26.3.0](https://github.com/buluma/ansible-role-core_dependencies/tree/v26.3.0) (2026-03-08)
+
+[Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/26.2.4...v26.3.0)
+
+**Merged pull requests:**
+
+- \[codex\] Fix Molecule root user [\#39](https://github.com/buluma/ansible-role-core_dependencies/pull/39) ([buluma](https://github.com/buluma))
+
 ## [26.2.4](https://github.com/buluma/ansible-role-core_dependencies/tree/26.2.4) (2026-02-03)
 
 [Full Changelog](https://github.com/buluma/ansible-role-core_dependencies/compare/26.2.3...26.2.4)
