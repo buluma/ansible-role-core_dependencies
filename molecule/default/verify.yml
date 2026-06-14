@@ -14,7 +14,7 @@
     - name: Check network facts
       ansible.builtin.assert:
         that:
-          - ansible_default_ipv4.broadcast is defined
+          - ansible_facts.default_ipv4.broadcast is defined
         quiet: true
 
     - name: See if the package manager still works
