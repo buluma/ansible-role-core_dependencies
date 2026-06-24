@@ -23,6 +23,9 @@ galaxy_info:
       versions:
         - all
 
+    - name: Suse
+      versions:
+        - all
   galaxy_tags:
     - coredependencies
     - system
